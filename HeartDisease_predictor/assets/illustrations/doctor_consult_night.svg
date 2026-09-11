@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280">
+  <defs>
+    <linearGradient id="capsule" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2E2740"/>
+      <stop offset="100%" stop-color="#3A2C52"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="328" height="248" rx="90" fill="url(#capsule)" stroke="#5A4A80" stroke-width="2"/>
+
+  <!-- supportive background -->
+  <circle cx="76" cy="96" r="20" fill="#45202E"/>
+  <circle cx="284" cy="96" r="20" fill="#45202E"/>
+  <circle cx="76" cy="188" r="20" fill="#1F3A2C"/>
+  <circle cx="284" cy="188" r="20" fill="#1F3A2C"/>
+
+  <!-- head -->
+  <circle cx="172" cy="108" r="40" fill="#F6D9C9"/>
+  <!-- hair -->
+  <path d="M 132 76 C 150 62 172 58 194 62 C 210 74 216 92 214 112 C 212 122 206 130 202 132 C 178 128 168 92 158 70 C 148 62 138 68 132 76 Z"
+        fill="#B98A6E"/>
+  <!-- bun -->
+  <circle cx="212" cy="84" r="16" fill="#B98A6E"/>
+  <!-- face -->
+  <circle cx="158" cy="104" r="4.5" fill="#F4EFFA"/>
+  <circle cx="186" cy="104" r="4.5" fill="#F4EFFA"/>
+  <path d="M 164 116 Q 172 122 180 116" fill="none" stroke="#FF9DB4" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="150" cy="112" rx="6" ry="4" fill="#F6C9D8" opacity="0.8"/>
+  <ellipse cx="194" cy="112" rx="6" ry="4" fill="#F6C9D8" opacity="0.8"/>
+
+  <!-- stethoscope -->
+  <path d="M 158 122 L 138 162" stroke="#B9A1E8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 186 122 L 206 162" stroke="#B9A1E8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="138" cy="162" r="7" fill="#B9A1E8"/>
+  <circle cx="206" cy="162" r="7" fill="#B9A1E8"/>
+
+  <!-- scrubs -->
+  <path d="M 138 148 C 132 176 134 200 142 224 L 206 224 C 216 200 218 176 212 148 C 206 152 196 160 190 170 Z" fill="#8E76C4"/>
+  <path d="M 148 150 L 152 176 L 164 182 L 168 160 Z" fill="#6E5AA6"/>
+  <path d="M 182 150 L 178 176 L 168 182 L 164 160 Z" fill="#6E5AA6"/>
+
+  <!-- name badge -->
+  <rect x="166" y="196" width="46" height="18" rx="9" fill="#241D31" stroke="#5A4A80" stroke-width="1.5"/>
+  <text x="189" y="208" text-anchor="middle" font-size="9" font-weight="700" fill="#B9A1E8">DR. A</text>
+
+  <!-- clipboard -->
+  <rect x="226" y="190" width="44" height="56" rx="6" fill="#241D31" stroke="#5A4A80" stroke-width="2" transform="rotate(6 248 218)"/>
+  <line x1="234" y1="202" x2="262" y2="202" stroke="#6E5AA6" stroke-width="3" transform="rotate(6 248 218)"/>
+  <line x1="234" y1="212" x2="262" y2="212" stroke="#6E5AA6" stroke-width="3" transform="rotate(6 248 218)"/>
+  <line x1="234" y1="222" x2="258" y2="222" stroke="#6E5AA6" stroke-width="3" transform="rotate(6 248 218)"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <radialGradient id="bgG" cx="0.5" cy="0.45" r="0.65">
+      <stop offset="0%" stop-color="#FFF5F7"/>
+      <stop offset="100%" stop-color="#F3EEFF"/>
+    </radialGradient>
+  </defs>
+  <circle cx="120" cy="120" r="104" fill="url(#bgG)"/>
+
+  <!-- gentle pulse arcs -->
+  <path d="M 46 140 C 30 120 40 92 68 74 C 96 66 128 62 128 92 Z" fill="none" stroke="#D9CEF7" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+  <path d="M 194 140 C 210 120 200 92 172 74 C 144 66 112 62 112 92 Z" fill="none" stroke="#D9CEF7" stroke-width="3" stroke-dasharray="1 9" stroke-linecap="round"/>
+
+  <!-- resting heart -->
+  <path d="M 120 150 C 110 140 102 124 104 112 C 122 98 146 102 152 114 C 158 126 154 140 146 150 C 132 156 120 158 112 152 Z"
+        fill="#F9BACB" stroke="#B83248" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 120 138 C 118 128 118 122 116 120" fill="none" stroke="#B83248" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- sparkles -->
+  <g fill="#D9CEF7">
+    <path d="M 90 84 l 6 -8 l 6 8 l -6 8 l -6 -8 Z"/>
+    <path d="M 152 70 l 6 -8 l 6 8 l -6 8 l -6 -8 Z"/>
+  </g>
+  <text x="120" y="200" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="17" font-weight="700" fill="#7D679E">ALL SET</text>
+</svg>

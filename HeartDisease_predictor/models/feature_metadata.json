@@ -1,0 +1,137 @@
+{
+  "model_name": "Random Forest",
+  "task": "binary-classification",
+  "classes": [
+    0,
+    1
+  ],
+  "class_names": {
+    "0": "No Heart Disease (Low Risk)",
+    "1": "Heart Disease (Elevated Risk)"
+  },
+  "n_records": 918,
+  "test_size": 0.2,
+  "random_state": 42,
+  "accuracy": 0.8804,
+  "f1_score": 0.8942,
+  "final_features": [
+    "is_female",
+    "ChestPainType_ASY",
+    "ChestPainType_ATA",
+    "ChestPainType_NAP",
+    "RestingECG_Normal",
+    "RestingECG_ST",
+    "is_ExerciseAngina",
+    "FastingBS",
+    "ST_Slope_Flat",
+    "ST_Slope_Up",
+    "Age",
+    "RestingBP",
+    "Cholesterol",
+    "MaxHR",
+    "Oldpeak"
+  ],
+  "scaled_features": [
+    "Age",
+    "RestingBP",
+    "Cholesterol",
+    "MaxHR",
+    "Oldpeak"
+  ],
+  "input_limits": {
+    "Age": {
+      "min": 20,
+      "max": 80,
+      "step": 1,
+      "label": "Age (years)"
+    },
+    "RestingBP": {
+      "min": 70,
+      "max": 200,
+      "step": 1,
+      "label": "Resting Blood Pressure (mm Hg)"
+    },
+    "Cholesterol": {
+      "min": 85,
+      "max": 600,
+      "step": 1,
+      "label": "Serum Cholesterol (mg/dL)"
+    },
+    "MaxHR": {
+      "min": 60,
+      "max": 202,
+      "step": 1,
+      "label": "Maximum Heart Rate (bpm)"
+    },
+    "Oldpeak": {
+      "min": 0.0,
+      "max": 6.0,
+      "step": 0.1,
+      "label": "ST Depression \u2014 Oldpeak (0.0 \u2013 6.0)"
+    }
+  },
+  "categorical_map": {
+    "Sex": {
+      "Female": 1,
+      "Male": 0
+    },
+    "ChestPainType": {
+      "ATA": {
+        "ChestPainType_ASY": 0,
+        "ChestPainType_ATA": 1,
+        "ChestPainType_NAP": 0
+      },
+      "NAP": {
+        "ChestPainType_ASY": 0,
+        "ChestPainType_ATA": 0,
+        "ChestPainType_NAP": 1
+      },
+      "ASY": {
+        "ChestPainType_ASY": 1,
+        "ChestPainType_ATA": 0,
+        "ChestPainType_NAP": 0
+      },
+      "TA": {
+        "ChestPainType_ASY": 0,
+        "ChestPainType_ATA": 0,
+        "ChestPainType_NAP": 0
+      }
+    },
+    "RestingECG": {
+      "Normal": {
+        "RestingECG_Normal": 1,
+        "RestingECG_ST": 0
+      },
+      "ST": {
+        "RestingECG_Normal": 0,
+        "RestingECG_ST": 1
+      },
+      "LVH": {
+        "RestingECG_Normal": 0,
+        "RestingECG_ST": 0
+      }
+    },
+    "ExerciseAngina": {
+      "No": 0,
+      "Yes": 1
+    },
+    "FastingBS": {
+      "Normal (<= 120 mg/dL)": 0,
+      "Elevated (> 120 mg/dL)": 1
+    },
+    "ST_Slope": {
+      "Up": {
+        "ST_Slope_Flat": 0,
+        "ST_Slope_Up": 1
+      },
+      "Flat": {
+        "ST_Slope_Flat": 1,
+        "ST_Slope_Up": 0
+      },
+      "Down": {
+        "ST_Slope_Flat": 0,
+        "ST_Slope_Up": 0
+      }
+    }
+  }
+}

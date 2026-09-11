@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241D31"/>
+      <stop offset="55%" stop-color="#2A2338"/>
+      <stop offset="100%" stop-color="#3C2238"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F4EFFA"/>
+      <stop offset="70%" stop-color="#D9CEF7"/>
+      <stop offset="100%" stop-color="#B9A1E8"/>
+    </radialGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#332B52"/>
+      <stop offset="100%" stop-color="#2A2338"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A1F38"/>
+      <stop offset="100%" stop-color="#241D31"/>
+    </linearGradient>
+    <linearGradient id="blob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EBA6C4" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#B9A1E8" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="460" rx="24" fill="url(#sky)"/>
+
+  <!-- organic fluid blob backdrop -->
+  <path d="M -40 300 C -20 210 40 180 90 190 C 150 210 210 240 250 300 C 300 350 420 360 520 320 600 300 C 660 280 700 260 720 220 680 210 Z"
+        fill="url(#blob)"/>
+
+  <!-- moon -->
+  <circle cx="438" cy="150" r="52" fill="url(#moon)"/>
+  <circle cx="420" cy="136" r="7" fill="#B9A1E8" opacity="0.55"/>
+  <circle cx="452" cy="164" r="5" fill="#B9A1E8" opacity="0.45"/>
+  <circle cx="444" cy="132" r="4" fill="#B9A1E8" opacity="0.4"/>
+  <!-- soft moon halo -->
+  <circle cx="438" cy="150" r="66" fill="#B9A1E8" opacity="0.12"/>
+
+  <!-- stars -->
+  <g fill="#F4EFFA" opacity="0.9">
+    <circle cx="120" cy="90" r="2.6"/>
+    <circle cx="250" cy="70" r="2"/>
+    <circle cx="322" cy="110" r="1.8"/>
+    <circle cx="560" cy="70" r="2.4"/>
+    <circle cx="90" cy="200" r="1.8"/>
+    <path d="M 200 140 l 4 -6 l 4 6 l -4 6 l -4 -6 Z" opacity="0.8"/>
+    <path d="M 520 190 l 4 -6 l 4 6 l -4 6 l -4 -6 Z" opacity="0.8"/>
+  </g>
+
+  <!-- rolling hills -->
+  <path d="M 0 300 C 90 265 180 285 240 320 C 320 355 430 340 480 360 C 560 355 620 375 640 380 Z" fill="url(#hill1)"/>
+  <path d="M 0 350 C 80 325 190 345 300 380 C 420 410 520 395 600 425 L 640 425 Z" fill="url(#hill2)"/>
+
+  <!-- serene silhouette gazing at the moon -->
+  <g fill="#1E1926">
+    <path d="M 275 342 Q 270 330 268 312 L 268 300" stroke="#1E1926" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 330 346 Q 338 330 340 310 L 340 298" stroke="#1E1926" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 262 300 C 258 272 262 246 268 222 L 300 218 L 340 224 L 346 252 C 348 280 344 308 330 315 Z" />
+    <path d="M 300 232 C 330 224 370 210 405 196 L 420 192" stroke="#1E1926" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="296" cy="196" r="22"/>
+  </g>
+
+  <!-- night botanicals -->
+  <g opacity="0.85">
+    <ellipse cx="70" cy="120" rx="26" ry="9" fill="#6E5AA6" transform="rotate(-22 70 120)"/>
+    <ellipse cx="112" cy="136" rx="24" ry="8" fill="#5A4A80" transform="rotate(18 112 136)"/>
+    <ellipse cx="86" cy="152" rx="22" ry="8" fill="#6E5AA6" transform="rotate(-8 86 152)"/>
+    <ellipse cx="540" cy="110" rx="25" ry="8" fill="#5A4A80" transform="rotate(24 540 110)"/>
+    <ellipse cx="576" cy="128" rx="23" ry="8" fill="#6E5AA6" transform="rotate(-16 576 128)"/>
+    <ellipse cx="548" cy="148" rx="21" ry="8" fill="#5A4A80" transform="rotate(10 548 148)"/>
+    <ellipse cx="150" cy="400" rx="26" ry="9" fill="#6E5AA6" transform="rotate(-12 150 400)"/>
+    <ellipse cx="196" cy="416" rx="23" ry="8" fill="#5A4A80" transform="rotate(20 196 416)"/>
+    <ellipse cx="452" cy="398" rx="25" ry="8" fill="#6E5AA6" transform="rotate(-24 452 398)"/>
+    <ellipse cx="500" cy="412" rx="22" ry="8" fill="#5A4A80" transform="rotate(8 500 412)"/>
+  </g>
+
+  <!-- glowing heart held toward the moon -->
+  <path d="M 420 208 C 414 202 410 194 411 188 C 418 182 428 184 431 189 C 434 194 432 201 427 206 C 423 209 421 209 420 208 Z"
+        fill="#EBA6C4" stroke="#FF9DB4" stroke-width="2"/>
+</svg>

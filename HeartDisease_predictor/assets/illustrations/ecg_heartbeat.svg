@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120">
+  <defs>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F9BACB"/>
+      <stop offset="60%" stop-color="#F9BACB"/>
+      <stop offset="100%" stop-color="#D9CEF7"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="10" width="404" height="100" rx="44" fill="#FFF5F7"/>
+  <polyline points="20,62 34,62 46,62 58,62 70,62 82,62 94,62 106,60 118,54 130,40 140,26 152,34 164,52 176,60 188,62 200,62 212,62 224,62 236,62 248,62 260,62 272,60 284,54 296,42 308,26 318,36 330,54 342,62 354,62 366,62 378,62 390,62 402,62"
+        fill="none" stroke="url(#pulse)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="330" cy="52" r="13" fill="#FFE4EC" stroke="#F9BACB" stroke-width="2.5"/>
+  <path d="M 322 52 Q 330 42 338 52" fill="none" stroke="#F9BACB" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 326 58 Q 330 68 334 58" fill="none" stroke="#B83248" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="436" cy="52" r="3" fill="#D9CEF7"/>
+</svg>

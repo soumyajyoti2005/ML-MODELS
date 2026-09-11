@@ -1,0 +1,168 @@
+/* ============================================================================
+   PulseBloom · CardiaCare — NIGHT THEME OVERRIDES
+   Warm plum-black canvas, glowing pink / violet clay. Injected AFTER style.css.
+   ==========================================================================*/
+
+:root {
+    /* ---- surfaces ---- */
+    --bg: #221C2B;
+    --bg-2: #2A2338;
+    --surface: #2E2740;
+    --surface-2: #362C4A;
+    --tint-pink: #3C2238;
+    --tint-violet: #2E2547;
+    --tint-lilac: #33294A;
+
+    /* ---- accents ---- */
+    --pink: #EBA6C4;
+    --pink-deep: #C17C9E;
+    --pink-badge: #45202E;
+    --pink-border: #5E3448;
+    --violet: #B9A1E8;
+    --violet-soft: #8E76C4;
+    --violet-deep: #C9B7F2;
+    --violet-border: #5A4A80;
+
+    /* ---- ink ---- */
+    --ink: #F4EFFA;
+    --ink-soft: #BCB0CE;
+
+    /* ---- status ---- */
+    --mint-bg: #1F3A2C;
+    --mint: #72DFA6;
+    --coral-bg: #48202E;
+    --coral: #FF9DB4;
+
+    /* ---- clay shadows (deeper & softer at night) ---- */
+    --shadow-raised: 0 16px 26px rgba(0,0,0,0.5), 0 6px 12px rgba(0,0,0,0.32), 0 2px 3px rgba(0,0,0,0.3);
+    --shadow-pop: 0 26px 38px rgba(0,0,0,0.58), 0 12px 18px rgba(0,0,0,0.4), 0 4px 7px rgba(0,0,0,0.32);
+    --shadow-press: inset 0 9px 18px rgba(0,0,0,0.5), 0 2px 4px rgba(0,0,0,0.35), 0 8px 18px rgba(0,0,0,0.42);
+    --emboss: inset 0 2px 0 rgba(255,255,255,0.10), inset 0 -3px 0 rgba(0,0,0,0.35);
+    --soft-focus: inset 0 1px 2px rgba(255,255,255,0.08), inset 0 -2px 3px rgba(0,0,0,0.3);
+    --glow-pink: 0 8px 30px rgba(235,166,196,0.35);
+}
+
+/* --- night canvas: deep plum gradient with soft pink/violet glows --- */
+[data-testid="stApp"] {
+    background:
+        radial-gradient(1150px 640px at 12% 8%, #3A1F38, transparent 74%),
+        radial-gradient(950px 720px at 88% 30%, #2A2150, transparent 72%),
+        radial-gradient(1400px 800px at 50% 108%, #33264A, transparent 78%),
+        linear-gradient(168deg, #1E1926 0%, #241D31 100%);
+}
+
+/* --- sidebar --- */
+[data-testid="stSidebar"] {
+    background:
+        radial-gradient(620px 420px at 18% 2%, #3A1F38, transparent 72%),
+        radial-gradient(520px 420px at 100% 100%, #2A2150, transparent 72%),
+        linear-gradient(165deg, #1E1926 0%, #2B2340 100%);
+    border-right-color: var(--pink-border);
+    box-shadow: inset -12px 0 26px rgba(0,0,0,0.35), 6px 0 26px rgba(0,0,0,0.25);
+}
+[data-testid="stSidebar"] [data-testid="stVerticalBlockBorder"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A);
+    border-color: #5A4A80;
+}
+[data-testid="stSidebar"] a[data-testid="stPageLink"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A);
+    border-color: #5A4A80; color: var(--ink);
+}
+[data-testid="stSidebar"] a[data-testid="stPageLink"]:hover {
+    background: linear-gradient(150deg, var(--tint-pink), var(--tint-violet));
+}
+[data-testid="stSidebarCollapsedControl"], [data-testid="stCollapseSidebar"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A) !important;
+    border-color: #5A4A80 !important; color: var(--violet) !important;
+}
+
+/* --- panels & tiles --- */
+[data-testid="stVerticalBlockBorder"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A);
+    border-color: #5A4A80;
+}
+[data-testid="stPlotlyChart"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A);
+    border-color: #5A4A80;
+}
+.clay-card, .card-container-tint { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; }
+.clay-card-pink { background: linear-gradient(150deg, #3C2238, #33294A); border-color: #5E3448; }
+.clay-card-violet { background: linear-gradient(150deg, #2C2444, #332B52); border-color: #5A4A80; }
+.clay-card-mint { background: linear-gradient(150deg, #233530, #1F3A2C); border-color: #2F5C44; }
+.clay-card-coral { background: linear-gradient(150deg, #3C2434, #48202E); border-color: #6E3448; }
+
+/* --- topbar --- */
+.clay-pill, .clay-value-badge {
+    background: linear-gradient(150deg, #3C2238, #2E2547);
+    border-color: #5E3448; color: var(--ink);
+}
+.clay-pill-violet { background: linear-gradient(150deg, #2C2444, #332B52); border-color: #5A4A80; }
+.clay-pill-pink { background: linear-gradient(150deg, #45202E, #3C2238); border-color: #5E3448; }
+/* --- buttons & links --- */
+[data-testid="stButton"] > button, [data-testid="stBaseButton-secondary"], [data-testid="stBaseButton-primary"] {
+    background: linear-gradient(145deg, #C98BB0 0%, #8E76C4 100%) !important;
+    border-color: #5A4A80 !important; color: #241D31 !important;
+}
+a[data-testid="stPageLink"] {
+    background: linear-gradient(150deg, #2E2740, #362C4A);
+    border-color: #5A4A80; color: var(--ink);
+}
+a[data-testid="stPageLink"] span { color: var(--ink); }
+a[data-testid="stPageLink"]:hover { background: linear-gradient(150deg, var(--tint-pink), var(--tint-violet)); }
+
+/* --- type --- */
+.clay-kicker, .hero-eyebrow {
+    background: linear-gradient(150deg, #3C2238, #2E2547);
+    border-color: #5A4A80; color: var(--violet);
+}
+.clay-title, .hero-title, .clay-section, .nb-section, .clay-card-title, .card-title { color: var(--ink); }
+.hl { background: linear-gradient(140deg, #EBA6C4 10%, #B9A1E8 90%); -webkit-background-clip: text; background-clip: text; }
+.clay-hero-sub, .clay-sub, .hero-sub, .nb-section-sub, .clay-card-sub, .card-sub { color: var(--ink-soft); }
+
+/* --- hero pieces --- */
+.clay-ecg { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; }
+.clay-frame { background: linear-gradient(160deg, #3C2238 0%, #2E2547 52%, #3A2C52 100%); border-color: #5A4A80; }
+.clay-float { background: #2E2740; border-color: #5A4A80; color: var(--ink-soft); }
+.clay-float b { color: var(--ink); }
+.clay-cat { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; }
+.clay-cat-violet { background: linear-gradient(150deg, #2C2444, #332B52); }
+.clay-cat-pink { background: linear-gradient(150deg, #36233C, #3C2238); }
+.clay-cat-ico { background: linear-gradient(145deg, #3C2238, #2E2547); border-color: #5A4A80; }
+.clay-stat { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; color: var(--ink-soft); }
+.clay-stat .ico { background: linear-gradient(145deg, #3C2238, #2E2547); border-color: #5A4A80; }
+
+/* --- kpi, badges, results, gauge --- */
+.clay-kpi, .kpi-card { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; }
+.clay-kpi:nth-child(even), .kpi-card:nth-child(even) { border-color: #5E3448; }
+.pill-badge { background: linear-gradient(150deg, #2E2547, #3C2238); border-color: #5A4A80; color: var(--violet); }
+.pill-badge-coral { color: var(--coral); background: linear-gradient(150deg, #48202E, #3C2434); border-color: #6E3448; }
+.pill-badge-mint { color: var(--mint); background: linear-gradient(150deg, #1F3A2C, #233530); border-color: #2F5C44; }
+.clay-result-mint, .result-healthy { background: linear-gradient(150deg, #233530 0%, #1F3A2C 100%); border-color: #2F5C44; }
+.clay-result-coral, .result-elevated { background: linear-gradient(150deg, #3C2434 0%, #48202E 100%); border-color: #6E3448; }
+.clay-gauge { background: #241D31; border-color: #4A3A63; }
+.clay-gauge > div { background: linear-gradient(90deg, #EBA6C4, #B9A1E8); }
+
+/* --- inputs --- */
+[data-testid="stSegmentedControl"] button {
+    background: linear-gradient(145deg, #3C2238, #2E2547);
+    border-color: #5A4A80; color: var(--violet);
+}
+[data-testid="stSegmentedControl"] button[aria-pressed="true"] {
+    background: linear-gradient(145deg, #C98BB0, #8E76C4); color: #241D31;
+}
+[data-testid="stSlider"] [role="slider"] { background: linear-gradient(145deg, #EBA6C4, #B9A1E8); border-color: #241D31; }
+[data-testid="stNumberInputContainer"] input, [data-testid="stBaseSelectboxTrigger"] {
+    background: #2E2740 !important; border-color: #5A4A80 !important; color: var(--ink) !important;
+}
+[data-testid="stMultiSelect"] span[data-testid="stTag"] {
+    background: linear-gradient(150deg, #3C2238, #2E2547); border-color: #5A4A80; color: var(--ink);
+}
+[data-testid="stExpander"] { background: linear-gradient(150deg, #2E2740, #362C4A); border-color: #5A4A80; }
+[data-testid="stExpander"] summary { color: var(--ink); }
+[data-testid="stAlert"] { background: linear-gradient(150deg, #3C2238, #2E2547); border-color: #5A4A80; color: var(--ink); }
+kbd, code { color: var(--pink); background: #2E2547; }
+
+/* --- sidebar footer note + footer trust --- */
+.side-note { background: linear-gradient(145deg, #3C2238, #2E2547); border-color: #5A4A80; color: var(--ink-soft); }
+.footer-trust { background: linear-gradient(145deg, #2E2547, #362C4A); border-color: #5A4A80; color: var(--ink-soft); }
+[data-testid="stSidebar"] ::-webkit-scrollbar-thumb { background: #5A4A80; }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="260" viewBox="0 0 240 260">
+  <defs>
+    <linearGradient id="shieldG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3EEFF"/>
+      <stop offset="100%" stop-color="#D9CEF7"/>
+    </linearGradient>
+  </defs>
+  <path d="M 40 40 L 200 40 L 218 96 L 228 128 L 228 170 L 220 206 L 196 226 L 120 232 L 44 206 L 30 170 L 22 128 L 12 96 L 20 40 Z"
+        fill="url(#shieldG)" stroke="#7D679E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 120 250 C 104 240 96 224 96 210 C 120 196 150 200 160 214 C 168 228 164 242 150 250 C 132 254 120 250 110 250 Z"
+        fill="#F9BACB" stroke="#B83248" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 120 232 C 118 220 118 214 116 212" fill="none" stroke="#B83248" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 70 82 L 170 82 L 170 92 L 70 92" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+  <text x="120" y="72" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="15" font-weight="700" fill="#7D679E">SAFE</text>
+  <circle cx="214" cy="118" r="8" fill="#D9F5E3"/>
+  <circle cx="26" cy="118" r="8" fill="#FFE4EC"/>
+</svg>

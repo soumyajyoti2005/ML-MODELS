@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="bannerBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF5F7"/>
+      <stop offset="45%" stop-color="#FFE4EC"/>
+      <stop offset="100%" stop-color="#F3EEFF"/>
+    </linearGradient>
+    <linearGradient id="bannerAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9BACB"/>
+      <stop offset="100%" stop-color="#D9CEF7"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1400" height="360" rx="40" fill="url(#bannerBg)"/>
+
+  <circle cx="1200" cy="80" r="120" fill="url(#bannerAccent)" opacity="0.28"/>
+  <circle cx="1200" cy="80" r="70" fill="#FFE4EC"/>
+  <circle cx="190" cy="290" r="90" fill="url(#bannerAccent)" opacity="0.22"/>
+  <circle cx="1290" cy="300" r="60" fill="url(#bannerAccent)" opacity="0.18"/>
+
+  <!-- heartbeat wave -->
+  <polyline points="140,210 180,210 210,200 240,180 270,150 300,120 340,140 380,170 420,200 470,210 520,210 570,210 620,200 660,170 690,140 720,120 760,150 800,200 860,210"
+            fill="none" stroke="#F9BACB" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 640 168 C 628 168 624 176 622 182 C 618 194 610 206 604 210 C 610 218 624 226 632 232 C 646 238 660 244 668 244 C 680 240 696 228 704 220 C 710 208 714 192 712 182 C 706 170 698 160 684 152" fill="#F9BACB" opacity="0.55"/>
+
+  <text x="700" y="86" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="58" font-weight="700" fill="#2E2633" letter-spacing="1">Better Heart, Better You.</text>
+  <text x="700" y="150" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="24" fill="#7E7385" letter-spacing="0.5">AI-Powered Cardiac Risk Assessment · 918 Verified Cases · 100% Private &amp; Local</text>
+
+  <text x="700" y="300" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="18" font-weight="600" fill="#7D679E">PulseBloom · CardiaCare</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF0F5"/>
+      <stop offset="55%" stop-color="#FFE4EC"/>
+      <stop offset="100%" stop-color="#F9BACB"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFE4EC"/>
+      <stop offset="100%" stop-color="#F6C9D8"/>
+    </radialGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9F5E3"/>
+      <stop offset="100%" stop-color="#B9DCC3"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CBE8D8"/>
+      <stop offset="100%" stop-color="#A9C9B6"/>
+    </linearGradient>
+    <linearGradient id="blob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9BACB" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#D9CEF7" stop-opacity="0.22"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="460" rx="24" fill="url(#sky)"/>
+
+  <!-- organic fluid blob backdrop -->
+  <path d="M -40 300 C -20 210 40 180 90 190 C 150 210 210 240 250 300 C 300 350 420 360 520 320 600 300 C 660 280 700 260 720 220 680 210 Z"
+        fill="url(#blob)"/>
+  <circle cx="0" cy="0" r="0"/>
+
+  <!-- sun -->
+  <circle cx="438" cy="150" r="52" fill="url(#sun)"/>
+  <!-- sun rays -->
+  <g opacity="0.5" stroke="#F9BACB" stroke-width="3" stroke-linecap="round">
+    <line x1="438" y1="150" x2="470" y2="70"/>
+    <line x1="438" y1="150" x2="510" y2="110"/>
+    <line x1="438" y1="150" x2="505" y2="185"/>
+    <line x1="438" y1="150" x2="385" y2="95"/>
+    <line x1="438" y1="150" x2="368" y2="170"/>
+  </g>
+
+  <!-- rolling hills -->
+  <path d="M 0 300 C 90 265 180 285 240 320 C 320 355 430 340 480 360 C 560 355 620 375 640 380 Z" fill="url(#hill1)"/>
+  <path d="M 0 350 C 80 325 190 345 300 380 C 420 410 520 395 600 425 L 640 425 Z" fill="url(#hill2)"/>
+
+  <!-- serene silhouette gazing at sunrise -->
+  <g fill="#2E2633">
+    <!-- legs -->
+    <path d="M 275 342 Q 270 330 268 312 L 268 300" stroke="#2E2633" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M 330 346 Q 338 330 340 310 L 340 298" stroke="#2E2633" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- torso -->
+    <path d="M 262 300 C 258 272 262 246 268 222 L 300 218 L 340 224 L 346 252 C 348 280 344 308 330 315 Z" />
+    <!-- arm reaching toward sunrise -->
+    <path d="M 300 232 C 330 224 370 210 405 196 L 420 192" stroke="#2E2633" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="296" cy="196" r="22"/>
+  </g>
+
+  <!-- eucalyptus / botanical leaves framing the scene -->
+  <g>
+    <ellipse cx="70" cy="120" rx="26" ry="9" fill="#A9C9B6" transform="rotate(-22 70 120)"/>
+    <ellipse cx="112" cy="136" rx="24" ry="8" fill="#BFD8C6" transform="rotate(18 112 136)"/>
+    <ellipse cx="86" cy="152" rx="22" ry="8" fill="#A9C9B6" transform="rotate(-8 86 152)"/>
+    <ellipse cx="540" cy="110" rx="25" ry="8" fill="#BFD8C6" transform="rotate(24 540 110)"/>
+    <ellipse cx="576" cy="128" rx="23" ry="8" fill="#A9C9B6" transform="rotate(-16 576 128)"/>
+    <ellipse cx="548" cy="148" rx="21" ry="8" fill="#BFD8C6" transform="rotate(10 548 148)"/>
+    <ellipse cx="150" cy="400" rx="26" ry="9" fill="#A9C9B6" transform="rotate(-12 150 400)"/>
+    <ellipse cx="196" cy="416" rx="23" ry="8" fill="#BFD8C6" transform="rotate(20 196 416)"/>
+    <ellipse cx="452" cy="398" rx="25" ry="8" fill="#A9C9B6" transform="rotate(-24 452 398)"/>
+    <ellipse cx="500" cy="412" rx="22" ry="8" fill="#BFD8C6" transform="rotate(8 500 412)"/>
+  </g>
+
+  <!-- tiny sparkles -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <circle cx="250" cy="120" r="3"/>
+    <circle cx="322" cy="86" r="2.2"/>
+    <circle cx="466" cy="212" r="2.6"/>
+    <circle cx="180" cy="196" r="2.2"/>
+  </g>
+  <g fill="#F3EEFF" opacity="0.85">
+    <circle cx="396" cy="248" r="3"/>
+    <circle cx="140" cy="250" r="2.4"/>
+  </g>
+</svg>
