@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="330" viewBox="0 0 380 330">
+  <rect width="380" height="330" fill="#FFFDF6"/>
+  <rect x="12" y="12" width="356" height="306" rx="6" fill="none"
+        stroke="#111111" stroke-width="4" stroke-dasharray="11 9"/>
+
+  <!-- sad sun -->
+  <g stroke="#111111" stroke-width="5" stroke-linecap="round" fill="#FFD54F">
+    <circle cx="128" cy="148" r="50"/>
+    <path d="M84 112 L54 86 M172 112 L202 86 M84 184 L54 210 M172 184 L202 210"/>
+    <path d="M102 134 L116 134 M140 134 L154 134" stroke="#111111" stroke-width="5"/>
+    <path d="M108 158 Q128 172 148 158" fill="none" stroke="#111111" stroke-width="5"/>
+  </g>
+
+  <!-- wrench -->
+  <path d="M258 138 L278 124 M278 158 L258 172 M278 142 L298 138 L298 164 L322 156"
+        fill="none" stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- unplugged plug -->
+  <rect x="232" y="232" width="76" height="56" rx="4" fill="#FFC107" stroke="#111111" stroke-width="5"/>
+  <path d="M252 232 L252 206 M288 232 L288 204" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+  <path d="M244 288 L244 306 M296 288 L296 306" stroke="#111111" stroke-width="5" stroke-linecap="round"/>
+  <!-- spark -->
+  <path d="M288 204 Q300 196 314 206" fill="none" stroke="#FF6F59" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- tiny placeholder scribble -->
+  <path d="M40 292 Q74 270 110 292 Q150 278 176 290" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round"/>
+</svg>

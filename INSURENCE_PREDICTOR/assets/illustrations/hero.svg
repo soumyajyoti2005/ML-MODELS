@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440">
+  <!-- empty frame colours -->
+  <rect width="560" height="440" fill="#FFFDF6"/>
+
+  <!-- ground wave -->
+  <path d="M24 408 Q58 388 92 410 Q140 396 190 410 Q250 394 310 410 Q370 398 432 410 Q480 396 536 408"
+        fill="#FFD54F" stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- sun -->
+  <g stroke="#111111" stroke-width="5" stroke-linecap="round" fill="#FFD54F">
+    <circle cx="118" cy="118" r="56"/>
+    <path d="M118 62 L118 26 M62 118 L26 118 M174 118 L206 118 M118 174 L118 206"/>
+    <path d="M80 80 L50 52 M156 80 L186 52 M80 156 L50 184 M156 156 L186 184"/>
+    <!-- sun face -->
+    <circle cx="97" cy="106" r="6" fill="#111111" stroke="none"/>
+    <circle cx="139" cy="106" r="6" fill="#111111" stroke="none"/>
+    <path d="M95 132 Q118 146 141 132" fill="none" stroke="#111111" stroke-width="5"/>
+  </g>
+
+  <!-- family: adult + child -->
+  <g stroke="#111111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="#111111">
+    <circle cx="198" cy="252" r="17" fill="#FFC107" stroke="#111111"/>
+    <path d="M198 269 L198 352" fill="none"/>
+    <path d="M198 292 L172 324 M198 292 L216 326" fill="none" stroke-linecap="round"/>
+    <path d="M198 352 L180 392 M198 352 L216 392" fill="none"/>
+    <circle cx="266" cy="294" r="13" fill="#FFD54F" stroke="#111111"/>
+    <path d="M266 307 L266 366" fill="none"/>
+    <path d="M266 324 L282 352" fill="none"/>
+    <path d="M266 366 L254 392 M266 366 L278 392" fill="none"/>
+    <!-- linking hands -->
+    <path d="M216 326 Q232 318 250 324" fill="none"/>
+  </g>
+
+  <!-- shield with heart + medical plus -->
+  <g stroke="#111111" stroke-width="5" stroke-linejoin="round" fill="#FFC107">
+    <path d="M382 96 L426 96 L464 144 L464 318 L428 388 L376 388 L326 318 L326 144 Z"/>
+  </g>
+  <g stroke="#111111" stroke-width="4" fill="#FF6F59">
+    <circle cx="384" cy="236" r="21"/>
+    <circle cx="412" cy="236" r="21"/>
+    <path d="M396 228 L372 254 L396 268 L420 268 L432 240 L448 254 L432 228 Z"/>
+  </g>
+  <path d="M392 258 L404 258 M398 250 L398 272" stroke="#FFFDF6" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- sparkle stars -->
+  <g stroke="#111111" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M506 64 L506 30 M482 48 L530 46 M500 40 L512 52"/>
+    <path d="M48 320 L48 288 M26 302 L70 304 M44 298 L54 310" stroke="#FFC107"/>
+    <path d="M250 96 L250 68 M228 82 L274 82"/>
+  </g>
+</svg>
