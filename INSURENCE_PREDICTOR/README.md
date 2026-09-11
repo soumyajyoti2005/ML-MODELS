@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/UI-Neo--Brutalist-111111?style=for-the-badge" alt="UI Style"/>
 </p>
 
+<p align="center">
+  <a href="https://suncover-autm9yqew6tafzwtczdejr.streamlit.app/"><img src="https://img.shields.io/badge/🚀_Live_Demo-Open_App-1F6F45?style=for-the-badge" alt="Live Demo"/></a>
+</p>
+
 # Suncover
 
 **Suncover** is a Streamlit web app that estimates annual medical insurance charges from a Linear Regression model, wrapped in a bold **Neo-Brutalist** interface — thick black borders, hard offset shadows, and a warm light-yellow / creamy-white palette.
@@ -69,6 +73,10 @@ insurance-predictor/
 ---
 
 ## 🚀 Getting Started
+
+**Live app:** [suncover-autm9yqew6tafzwtczdejr.streamlit.app](https://suncover-autm9yqew6tafzwtczdejr.streamlit.app/)
+
+Or run it locally:
 
 ```bash
 # 1. Install dependencies
