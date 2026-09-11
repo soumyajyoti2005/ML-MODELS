@@ -7,7 +7,17 @@ squishy clay surfaces in light pink / light violet / soft creamy white — and a
 **day ⇄ night theme toggle** (☀️/🌙) sits at the top-right corner of every page.
 No cold hospital vibes.
 
-![Banner](assets/banner.svg)
+![Banner](assets/banner1.svg)
+
+<p align="center">
+  <a href="https://heart-disease-kkemeocz84jhmfbxe2qxqt.streamlit.app/">
+    <img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Try%20PulseBloom-F9BACB?style=for-the-badge&labelColor=2E2633&logo=streamlit&logoColor=F9BACB">
+  </a>
+</p>
+
+<p align="center">
+  🔗 <b><a href="https://heart-disease-kkemeocz84jhmfbxe2qxqt.streamlit.app/">heart-disease-kkemeocz84jhmfbxe2qxqt.streamlit.app</a></b>
+</p>
 
 ---
 
@@ -57,6 +67,10 @@ HeartDisease_predictor/
 ---
 
 ## 🚀 Quick Start
+
+Want to try it first, no setup required? **[Open the live app →](https://heart-disease-kkemeocz84jhmfbxe2qxqt.streamlit.app/)**
+
+To run it locally instead:
 
 ```bash
 # 0. (Optional but recommended) create & activate a virtual environment
